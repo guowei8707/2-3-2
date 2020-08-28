@@ -1,0 +1,83 @@
+body {
+  background-color: #EFEFEF;
+  margin: 0px;
+}
+
+.nav {
+  background-color: #CFE2F3;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  line-height: 50px;
+  font-size: 24px;
+  font-color: black;
+  z-index: 999;
+}
+
+.left_section, .right_section {
+  height: 1000px;
+  display: inline-block;
+  position: fixed;
+  top: 50px;
+  padding: 0px;
+}
+
+.blogger, .banner, .article_area, .article_list {
+  height: 450px;
+  background-color: #DAD2E9;
+  display: inline-block;
+  margin: 10%;
+  width: 80%;
+}
+
+.right_section {
+  position: relative;
+  float: right;
+}
+
+.banner, .article_area {
+  margin: 25px auto;
+  margin: 5%;
+  width: 90%;
+  display: inline-block;
+  background-color: #D1E0E3;
+}
+
+.article_area {
+  background-color: #FFF2CD;
+}
+
+.article {
+  background-color: #FBE5CD;
+  height: 41%;
+  display: inline-block;
+  padding: 0;
+  width: 41%;
+  position: relative;
+}
+
+.article1 {
+  /*margin: 6% 6% 6% 6%;*/
+  top: 6%;
+  left: 6%;
+}
+
+.article2 {
+  /*    margin: 6% 6% 6% 0%;*/
+  top: 6%;
+  left: 12%;
+}
+
+.article3 {
+  /*    margin: 0% 6% 6% 6%;*/
+  top: 12%;
+  left: 6%;
+}
+
+.article4 {
+  /*margin: 0% 6% 6% 0%;*/
+  top: 12%;
+  left: 12%;
+}
+
+/*# sourceMappingURL=index.css.map */
